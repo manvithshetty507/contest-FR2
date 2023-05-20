@@ -1,0 +1,87 @@
+html{
+    color:white;
+    background-color: black;
+    margin: 40px 0px 0px 20px;
+    font-size: 20px;
+}
+
+.heading{
+    padding: 10px 0px 10px 0px;
+}
+
+.drop{
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.drop .prof{
+    color: white;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid yellow;
+    font-size: 15px;
+}
+
+.filter{
+    padding: 10px 0px 10px 0px;
+}
+
+.filter button,.add-btn button{
+    background-color: white;
+    color:black;
+    font-size: 15px;
+    border: none;
+    padding: 7px 50px 7px 50px;
+}
+
+.add{
+    margin:50px 0px 10px 0px;
+}
+
+.add .add-span{
+    margin:15px 0px 15px 0px;
+}
+
+.add .add-user{
+    margin:15px 0px 15px 0px;
+    display: flex;
+}
+
+.add .name-div,.add .prof-div,.add .age-div{
+    font-size: 16px;
+    margin:0px 30px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-div input, .prof-div input, .age-div input{
+    color: white;
+    background-color: black;
+    margin: 10px 0px 10px 0px;
+    width: 350px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.name-list .employee-info{
+    margin: 20px 0px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width:40%;
+}
+
+.employee-info span, .employee-info p{
+    padding: 0px 25px 0px 5px;
+}
+
+
+

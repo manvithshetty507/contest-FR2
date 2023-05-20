@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="heading">
+        <span>Filter ui cards via their profession</span>
+    </header>
+    <div class="content">
+        <div class="drop">
+            <select name="prof" class="prof" id="prof">
+                <option value="" class="prof">Profession</option>
+                <option value="developer" class="prof">Developer</option>
+                <option value="admin" class="prof">Admin</option>
+            </select>
+        </div>
+
+        <div class="name-list" id="name-list">
+
+        </div>
+
+        <div class="filter">
+            <button onclick="filterEmployees()">Filter</button>
+        </div>
+
+        <div class="add">
+
+            <div class="add-span">
+                <span>Add a New User</span>
+            </div>
+
+            <div class="add-user">
+
+                <div class="name-div">
+                    <label for="name" class="name">Enter Name</label>
+                    <input type="text" class="name" id="name">
+                </div>
+
+                <div class="prof-div">
+                    <label for="profession" class="profession">Enter Profession</label>
+                    <input type="text" class="profession" id="profession">
+                </div>
+
+                <div class="age-div">
+                    <label for="age" class="age">Enter Age</label>
+                    <input type="text" class="age" id="age">
+                </div>
+
+            </div>
+
+            <div class="add-btn">
+                <button onclick="addUser()">Add User</button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
